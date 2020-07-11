@@ -18,7 +18,9 @@ class ClipboardPlugintest {
 
   static Future<String> getData() async {
     final dynamic ret = await _channel.invokeMethod('getData');
-    print('got ret: $ret');
-    return '';
+    if (ret is Map) {
+      return ret['text'] as String;
+    }
+    return null;
   }
 }
