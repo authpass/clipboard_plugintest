@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/clipboard_plugintest.iml" filepath="$PROJECT_DIR$/clipboard_plugintest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/clipboard_plugintest_android.iml" filepath="$PROJECT_DIR$/android/clipboard_plugintest_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/clipboard_plugintest_example_android.iml" filepath="$PROJECT_DIR$/example/android/clipboard_plugintest_example_android.iml" />
+    </modules>
+  </component>
+</project>
